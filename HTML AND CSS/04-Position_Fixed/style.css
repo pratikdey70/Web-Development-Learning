@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.content{
+    font-size: 25px;
+    line-height: 1.5;
+    margin: 30px 0;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.container{
+    width: 700px;
+    margin: auto;
+    margin-top: 90px;
+    padding-top: 40px;
+}
+
+.para{
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: 800;
+    position: absolute;
+    left: -75px;
+    border-bottom: 1px solid grey;
+    
+}
+
+.nav{
+    font-size: 25px;
+    border: 1px solid;
+    position: fixed;
+    width: 100%;
+    background-color: blanchedalmond;
+    top: 0;
+    z-index: 1;
+}
+ 
+
+.nav-item{
+    margin: 20px;
+    padding: 5px;
+    display: inline-block;
+}
+
+/* NAVBAR LVHA */
+.nav-item:link{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item:visited{
+    color: blueviolet;
+}
+
+
+.nav-item:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+
+.nav-item:active{
+    background-color: black;
+    color: yellow;
+}

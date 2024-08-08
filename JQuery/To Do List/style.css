@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+
+.h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.btn,.btn_1{
+    padding: 5px;
+    color: white;
+    background-color: tomato;
+    border: 0;
+    border-radius: 5px;
+    width: 10%;
+    cursor: pointer;
+    margin: 4px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.inp{
+    padding: 4px;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 25px;
+    border-radius: 3px;
+}
+
+.upBtn,
+.downBtn,
+.deleteBtn{
+    background-color: royalblue;
+    color: white;
+    width: 10%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.taskItem{
+    margin: 10px auto;
+    list-style: none;
+}
+
+li:first-child .upBtn,
+li:last-child .downBtn{
+    display: none;
+}
+

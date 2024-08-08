@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Added to include padding and border in element's total width and height */
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.main-content {
+    border: 1px solid black;
+    width: 20%;
+    height: 500px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.inp {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 0.1px solid;
+}
+
+.button-section {
+    padding: 10px;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row-1,
+.row-2,
+.row-3,
+.row-4,
+.row-5 {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    margin: auto;
+}
+
+.reset {
+    background-color: rgb(15, 200, 15);
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
